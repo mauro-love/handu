@@ -10,7 +10,7 @@ $(function(){
 			for(var j = 0; j < obj.img.length ; j ++){
 				$("<div></div>").appendTo($("#index_lb>div>a"));
 				console.log(111)
-				$("#index_lb a div:last").css({"background":"url(" + obj.img[j] + ")",height:"90px"})
+				$("#index_lb a div:last").css({"background":"url(" + obj.img[j] + ") center",height:"90px"})
 			}
 
 		}
@@ -70,3 +70,6 @@ function opactyChange(obj){
 	}
 }
 })
+
+
+//改变品牌模块

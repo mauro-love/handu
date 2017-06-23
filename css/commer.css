@@ -167,6 +167,7 @@ html,body{
 .footer_black{
 	width: 1200px;
 	height: 30px;
+	margin: 0 auto;
 	line-height: 30px;
 	background: #393939;
 	color: #FFFFFF;
