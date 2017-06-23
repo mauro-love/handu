@@ -1,9 +1,10 @@
 @charset "utf-8";
 html,body{
+	min-width: 1200px;
 	width: 100%;
 	height: 100%;
 }
-/*头部开始*/
+/*头部导航开始*/
 #global_nav{
 	width: 100%;
 	height: 29px;
@@ -53,4 +54,163 @@ html,body{
 #hd_help li{
 	float: left;
 	padding: 0 10px;
+}
+/*头部导航结束*/
+#hd_header{
+	width: 100%;
+	height: 169px;
+}
+.hdtop_header{
+	width: 1200px;
+	height: 133px;
+	margin: 0 auto;
+}
+.hdls_logo{
+	width: 355px;
+	height: 75px;
+	background: url(../images/logo/logo_new.png)no-repeat;
+	float: left;
+	margin-top:10px ;
+}
+.hdls_logo a {
+	display: block;
+	width: 355px;
+	height: 75px;
+	text-indent: -999px;
+}
+#hd_search{
+	padding-top:28px ;
+	width: 490px;
+	height: 133px;
+	float: left;
+	padding-left: 45px;
+}
+.hdin_not{
+	
+	width: 488px;
+	height:33px ;
+	border: 1px solid #c80a28;
+}
+#hd_search .hdin_not .text {
+	width: 398px;
+	height: 32px;
+	border-bottom: 1px solid #c80a28;
+	float: left;
+	color: #c80a28;
+	font-size: 13px;
+	padding-left:5px ;
+	padding-top:0px ;
+	padding-bottom:0px ;
+}
+.hdin_not input:last-child{
+	width: 85px;
+	height: 33px;
+	background: #c80a28;
+	float: right;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+}
+.hotwords{
+	margin-top:5px ;
+	font-size: 10px;
+	color: #666666;
+}
+.hdtop_right {
+	font-size: 11px;
+	color: #ff0032;
+	width: 100px;
+	height: 133px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/*footer开始*/
+#handdu_footer{
+	width: 100%;
+	height: 455px;
+}
+.footer_info{
+	width: 1200px;
+	height: 145px;
+	background: #fafafa;
+	margin: 0 auto;
+}
+.info_column{
+	width: 200px;
+	height: 145px;
+	padding-top:20px ;
+	float: left;
+	text-align: center;
+}
+.fht21{
+	font-size: 14px;
+	font-weight: 900;
+}
+.info_column ul{
+	font-size: 11px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+/*正品保证*/
+.footer_feature{
+	width: 1060px;
+	height: 115px;
+	margin: 0 auto;
+	padding: 20px 70px 0px 70px;
+	background: url(../images/feature0.png) no-repeat;
+	background-size: 100%;
+	background-origin: content-box;
+}
+.footer_black{
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+	background: #393939;
+	color: #FFFFFF;
+	text-align: center;
+}
+.footer_black a{
+	display: inline-block;
+	padding: 0px 20px 0px 15px;
+	color: #FFFFFF;
+}
+/*版权*/
+.copyright_info{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.copyright_info span:first{
+	display: block;
+	width: 905px;
+	height: 50px;
+}
+.copyright_info span:first a p{
+	display: inline-block;
+	text-align: center;
+}
+.copyright_info span:last-child{
+text-align: center;
+}
+.copyright_info div{
+	text-align: center;
+}
+#handdu_footer div:last-child{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+#handdu_footer div:last-child span{
+	display: block;
+	float: left;
+}
+.friendlink{
+	float: left;
+}
+.friendlink li{
+	float: left;
 }

@@ -1,0 +1,120 @@
+@charset "utf-8";
+#xf_search{
+	display: none;
+}
+.yHeader{        /* 导航最外*/
+	width: 100%;
+	height: 36px;
+	min-width: 1200px;
+}
+.yNavIndex{       /*导航版心*/
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+}
+.yMenuIndex{     /*  导航*/
+	width: 990px;
+	height: 36px;
+	float: right;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 36px;
+	padding-right:20px ;
+}
+.nav_menuLi{
+	padding: 0px 15px;
+	float: left;
+}
+.fright{
+	float: right;
+}
+.zix_x{  /*子菜单*/
+	display: none;
+}
+/*全部商品*/
+.pullD{
+	width: 190px;
+	height: 486px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #e3e3e3;
+	z-index: 99;
+}
+.pullDTitle{
+	width: 190px;
+	height: 33px;
+	background: #fe0032;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+}
+.listi5 img:last-child{
+	display: none;
+}
+.mliselected{
+	width: 177px;
+	height: 64px;
+	border-bottom: 1px dotted #ccc ;
+	padding-left:13px ;
+}
+.mliselected a{
+	font-size: 11px;
+	color: #555555;
+}
+.pullDList li:last-child{
+	border: none;
+}
+.pullDH3_t{   /*全部商品小标题*/
+	font-size: 12px;
+	color: #333333;
+}
+/*二级目录*/
+.yMenuLCon{
+	display: none;
+}
+/*banner图开始*/
+#wrap_lb_bar{
+	width: 100%;
+	height: 450px;
+	min-width: 1200px;
+	
+}
+
+#index_lb{
+	width: 100%;
+	min-width: 1200px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+#index_lb .content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	width: 100%;
+	height: 450px;
+}
+.tab{
+	width:100% ;
+	height: 30px;
+	position: absolute;
+	top:410px;
+	margin: 0 auto;
+	text-align: center;
+}
+.tab li{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	line-height: 30px;
+}
+.on{
+	background: #000000;
+	color: #FFFFFF;
+}
