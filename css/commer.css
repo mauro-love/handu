@@ -215,3 +215,45 @@ text-align: center;
 .friendlink li{
 	float: left;
 }
+/*浮悬模块*/
+.float_box{
+	width: 72px;
+	height: 320px;
+	position: fixed;
+	right: 100px;
+	bottom: 200px;
+}
+.float_box a{
+	display: block;
+	width: 72px;
+	height: 78px;
+	margin-bottom: 1px;
+}
+.float_box a:last-child{
+	height: 57px;
+}
+.float_box a:nth-of-type(1){
+	background: url(../images/float_box4.png) no-repeat left 0px top -6px;
+}
+.float_box a:nth-of-type(2){
+	background: url(../images/float_box4.png) no-repeat left 0px top -86px;
+}
+.float_box a:nth-of-type(3){
+	background: url(../images/float_box4.png) no-repeat left 0px top -166px;
+}
+.float_box a:nth-of-type(4){
+	background: url(../images/float_box4.png) no-repeat left 0px top -246px;
+}
+.float_box a:nth-of-type(1):hover{
+	background: url(../images/float_box4.png) no-repeat left -78px top -6px;
+}
+.float_box a:nth-of-type(2):hover{
+	background: url(../images/float_box4.png) no-repeat left -78px top -86px;
+}
+.float_box a:nth-of-type(3):hover{
+	background: url(../images/float_box4.png) no-repeat left -78px top -166px;
+}
+.float_box a:nth-of-type(4):hover{
+	background: url(../images/float_box4.png) no-repeat left -78px top -246px;
+}
+

@@ -518,9 +518,540 @@
 	height: 380px;
 }
 .main_new_head{
-	width: 1200px;
-	height: 50px;
+	width: 980px;
+	height: 30px;
+	margin-top: 20px;
+	padding-left: 220px;
+	color: #f4e8e8;
+	background: url(../images/web_index.png) no-repeat left 0px top -45px;
 }
-.main_new_head span{
+.main_new_head a{
+	display: inline-block;
+	line-height: 30px;
+	padding: 0px 15px;
+	color: #666666;
+	background: url(../images/2.png)no-repeat center;
+}
+.main_new_bottom{
+	width: 1200px;
+	height: 330px;
+}
+.main_new_bottom ul{
+	width: 1200px;
+	height: 330px;
+	display: flex;
+	justify-content: space-around;
+}
+.main_new_bottom ul li{
+	width: 220px;
+	height: 330px;
+	text-align: center;
+}
+.main_new_bottom ul li a{
+	display: block;
+	width: 220px;
+	height: 220px;
+	background: url(../images/shaonv001.jpg) no-repeat;
+	margin-bottom:10px ;
+}
+.main_new_bottom ul li span:nth-of-type(1){
+	font-size: 9px;
+	color: black;
+}
+.main_new_bottom ul li span:nth-of-type(2){
+	font-size: 14px;
+	color: black;
 	
+}
+.main_new_bottom ul li span:nth-of-type(3){
+	font-size: 9px;
+	text-decoration: line-through;
+	color: #999;
+}
+.main_new_bottom ul li div{
+	width: 75px;
+	height: 17px;
+	border: 1px solid #333333;
+	line-height: 17px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.main_hStyle{/*韩风时尚*/
+	width: 1200px;
+	height: 1110px;
+}
+.main_hStyle h2{
+	width:1200px;
+	height: 30px;
+	margin-top: 8px;
+	background: url(../images/web_index.png) no-repeat left 0px top -70px;
+	text-align: right;
+}
+.main_hStyle h2 a{
+	display: inline-block;
+	padding:0px 16px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.main_hStyleL{ /*韩风左边专区*/
+	width: 190px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_hStyleL a{
+	display: inline-block;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+.main_hStyleL a:first-child{
+	display: block;
+	width: 170px;
+	height: 235px;
+	position: relative;
+	background: url(../images/1493262816605002849.jpg) no-repeat;
+	margin: 0px;
+}
+.main_hStyleL a:first-child span{
+	display: block;
+	width: 190px;
+	height: 35px;
+	background: #35bf9b;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+
+.main_hStyleL a:first-child p{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.main_hStyleM{ /*韩风每周上新*/
+	width: 790px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_hStyleM>a{
+	display: block;
+	float: left;
+	width: 580px;
+	height: 423px;
+	background: url(../images/1498124749751232183.jpg) no-repeat;
+	margin-right: 10px;
+}
+.main_hStyleM ul{
+	width: 200px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleM ul li:first-child a{
+	display: block;
+	width: 200px;
+	height: 253px;
+	background: url(../images/1493262853044735391.png)no-repeat;
+}
+.main_hStyleM ul li:last-child a{
+	display: block;
+	width: 200px;
+	height: 160px;
+	margin-top: 10px;
+	background: url(../images/1493262972718897039.png)no-repeat;
+}
+.main_hStyle_range{
+	width: 198px;
+	height: 422px;
+	float: left;
+	border: 1px solid #e4e4e4;
+	border-top: 0px;
+}
+.main_hStyle_range h3{
+	font-size: 14px;
+	text-align: center;
+	color: red;
+	height: 35px;
+	line-height: 35px;
+	font-weight: 900;
+}
+.main_hStyle_range ul{
+	display: none;
+}
+.list{   /*商品列表*/
+	width: 1200px;
+	height: 310px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap
+}
+.list li{
+	width: 220px;
+	height: 310px;
+	text-align: center;
+}
+.list li a{
+	display: block;
+	width: 220px;
+	height: 220px;
+	background: url(../images/shaonv001.jpg) no-repeat;
+	margin-bottom:10px ;
+}
+.list li span:nth-of-type(1){
+	font-size: 9px;
+	color: black;
+}
+.list li span:nth-of-type(2){
+	font-size: 14px;
+	color: black;
+}
+.list li span:nth-of-type(3){
+	font-size: 9px;
+	text-decoration: line-through;
+	color: #999;
+}
+.list li div{
+	width: 75px;
+	height: 17px;
+	border: 1px solid #333333;
+	line-height: 17px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.main_hStyleMother{  /* 妈妈装*/
+	width: 1200px;
+	height: 800px;
+}
+.main_hStyleMother h2{
+	width:1200px;
+	height: 30px;
+	margin-top: 8px;
+	background: url(../images/web_index.png) no-repeat left 0px top -135px;
+	text-align: right;
+}
+.main_hStyleMother h2 a{
+	display: inline-block;
+	padding:0px 16px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.main_hStyleMotherL{ /*妈妈左边专区*/
+	width: 190px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_hStyleMotherL a{
+	display: inline-block;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+.main_hStyleMotherL a:first-child{
+	display: block;
+	width: 170px;
+	height: 235px;
+	position: relative;
+	background: url(../images/1493262816605002849.jpg) no-repeat;
+	margin: 0px;
+}
+.main_hStyleMotherL a:first-child span{
+	display: block;
+	width: 190px;
+	height: 35px;
+	background: #35bf9b;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+
+.main_hStyleMotherL a:first-child p{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.main_hStyleMotherR{  /*妈妈右边专区*/
+	width: 1000px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleMotherR>a{
+	display: block;
+	width: 790px;
+	height: 423px;
+	margin-right: 10px;
+	background: url(../images/1495177408631952484.jpg) no-repeat;
+	float: left;
+}
+.main_hStyleMotherR ul{
+	width: 200px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleMotherR ul li:first-child a{
+	display: block;
+	width: 200px;
+	height: 293px;
+	background: url(../images/1493262788515271622.png) no-repeat;
+}
+.main_hStyleMotherR ul li:last-child a{
+	display: block;
+	width: 200px;
+	height: 130px;
+	background: url(../images/1483593695007779801.png) no-repeat;
+}
+.main_hStyleGirl{  /* 少女装*/
+	width: 1200px;
+	height: 800px;
+}
+.main_hStyleGirl h2{
+	width:1200px;
+	height: 30px;
+	margin-top: 8px;
+	background: url(../images/web_index.png) no-repeat left 0px top -165px;
+	text-align: right;
+}
+.main_hStyleGirl h2 a{
+	display: inline-block;
+	padding:0px 16px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.main_hStyleGirlL{ /*少女左边专区*/
+	width: 190px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_hStyleGirlL a{
+	display: inline-block;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+.main_hStyleGirlL a:first-child{
+	display: block;
+	width: 170px;
+	height: 235px;
+	position: relative;
+	background: url(../images/1493262816605002849.jpg) no-repeat;
+	margin: 0px;
+}
+.main_hStyleGirlL a:first-child span{
+	display: block;
+	width: 190px;
+	height: 35px;
+	background: #35bf9b;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+.main_hStyleGirlL a:first-child p{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.main_hStyleGirlR{  /*少女右边专区*/
+	width: 1000px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleGirlR>a{
+	display: block;
+	width: 790px;
+	height: 423px;
+	margin-right: 10px;
+	background: url(../images/1495177408631952484.jpg) no-repeat;
+	float: left;
+}
+.main_hStyleGirlR ul{
+	width: 200px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleGirlR ul li:first-child a{
+	display: block;
+	width: 200px;
+	height: 293px;
+	background: url(../images/1493262788515271622.png) no-repeat;
+}
+.main_hStyleGirlR ul li:last-child a{
+	display: block;
+	width: 200px;
+	height: 130px;
+	background: url(../images/1483593695007779801.png) no-repeat;
+}
+.main_hStyleBoy{  /* 童装*/
+	width: 1200px;
+	height: 800px;
+}
+.main_hStyleBoy h2{
+	width:1200px;
+	height: 30px;
+	margin-top: 8px;
+	background: url(../images/web_index.png) no-repeat left 0px top -195px;
+	text-align: right;
+}
+.main_hStyleBoy h2 a{
+	display: inline-block;
+	padding:0px 16px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.main_hStyleBoyL{ /*童装左边专区*/
+	width: 190px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_hStyleBoyL a{
+	display: inline-block;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+.main_hStyleBoyL a:first-child{
+	display: block;
+	width: 170px;
+	height: 235px;
+	position: relative;
+	background: url(../images/1493262816605002849.jpg) no-repeat;
+	margin: 0px;
+}
+.main_hStyleBoyL a:first-child span{
+	display: block;
+	width: 190px;
+	height: 35px;
+	background: #35bf9b;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+.main_hStyleBoyL a:first-child p{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.main_hStyleBoyR{  /*童装右边专区*/
+	width: 1000px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleBoyR>a{
+	display: block;
+	width: 790px;
+	height: 423px;
+	margin-right: 10px;
+	background: url(../images/1495177408631952484.jpg) no-repeat;
+	float: left;
+}
+.main_hStyleBoyR ul{
+	width: 200px;
+	height: 423px;
+	float: left;
+}
+.main_hStyleBoyR ul li:first-child a{
+	display: block;
+	width: 200px;
+	height: 293px;
+	background: url(../images/1493262788515271622.png) no-repeat;
+}
+.main_hStyleBoyR ul li:last-child a{
+	display: block;
+	width: 200px;
+	height: 130px;
+	background: url(../images/1483593695007779801.png) no-repeat;
+}
+.main_eStyle{  /* 欧美装*/
+	width: 1200px;
+	height: 800px;
+}
+.main_eStyle h2{
+	width:1200px;
+	height: 30px;
+	margin-top: 8px;
+	background: url(../images/web_index.png) no-repeat left 0px top -255px;
+	text-align: right;
+}
+.main_eStyle h2 a{
+	display: inline-block;
+	padding:0px 16px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.main_eStyleL{ /*欧美左边专区*/
+	width: 190px;
+	height: 423px;
+	float: left;
+	margin-right: 10px;
+}
+.main_eStyleL a{
+	display: inline-block;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+.main_eStyleL a:first-child{
+	display: block;
+	width: 170px;
+	height: 235px;
+	position: relative;
+	background: url(../images/1493262816605002849.jpg) no-repeat;
+	margin: 0px;
+}
+.main_eStyleL a:first-child span{
+	display: block;
+	width: 190px;
+	height: 35px;
+	background: #35bf9b;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+.main_eStyleL a:first-child p{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.main_eStyleR{  /*欧美右边专区*/
+	width: 1000px;
+	height: 423px;
+	float: left;
+}
+.main_eStyleR>a{
+	display: block;
+	width: 790px;
+	height: 423px;
+	margin-right: 10px;
+	background: url(../images/1495177408631952484.jpg) no-repeat;
+	float: left;
+}
+.main_eStyleR ul{
+	width: 200px;
+	height: 423px;
+	float: left;
+}
+.main_eStyleR ul li:first-child a{
+	display: block;
+	width: 200px;
+	height: 293px;
+	background: url(../images/1493262788515271622.png) no-repeat;
+}
+.main_eStyleR ul li:last-child a{
+	display: block;
+	width: 200px;
+	height: 130px;
+	background: url(../images/1483593695007779801.png) no-repeat;
 }
