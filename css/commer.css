@@ -39,6 +39,9 @@ html,body{
 	padding:0 10px;
 }
 #header_left .on{
+	background: #f5f5f5;
+}
+#header_left .on a{
 	color: red;
 }
 #hd_me{
@@ -126,17 +129,102 @@ html,body{
 	margin-top: 15px;
 	text-align: center;
 }
+/*头部结束*/
+.yHeader{        /* 导航最外*/
+	width: 100%;
+	height: 36px;
+	min-width: 1200px;
+}
+.yNavIndex{       /*导航版心*/
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+}
+.yMenuIndex{     /*  导航*/
+	width: 990px;
+	height: 36px;
+	float: right;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 36px;
+	padding-right:20px ;
+}
+.nav_menuLi{
+	padding: 0px 15px;
+	float: left;
+}
+.fright{
+	float: right;
+	position: relative;
+	text-align: center;
+}
+.zix_x{  /*子菜单*/
+	display: none;
+	z-index: 99;
+	position: absolute;
+}
+.zix_x li{
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+}
+/*全部商品*/
+.pullD{
+	width: 190px;
+	height: 486px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #e3e3e3;
+	z-index: 99;
+}
+.pullDTitle{
+	width: 190px;
+	height: 33px;
+	background: #fe0032;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+}
+.listi5 img:last-child{
+	display: none;
+}
+.mliselected{
+	width: 177px;
+	height: 64px;
+	border-bottom: 1px dotted #ccc ;
+	padding-left:13px ;
+}
+.mliselected a{
+	font-size: 11px;
+	color: #555555;
+}
+.pullDList li:last-child{
+	border: none;
+}
+.pullDH3_t{   /*全部商品小标题*/
+	font-size: 12px;
+	color: #333333;
+}
+/*二级目录*/
+.yMenuLCon{
+	display: none;
+}
 
 /*footer开始*/
 #handdu_footer{
 	width: 100%;
 	height: 455px;
+	position: relative;
 }
 .footer_info{
 	width: 1200px;
 	height: 145px;
 	background: #fafafa;
 	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
 }
 .info_column{
 	width: 200px;
@@ -188,10 +276,15 @@ html,body{
 	display: block;
 	width: 905px;
 	height: 50px;
+	float: left;
+}
+.copyright_info span:first a{
+	float: left;
 }
 .copyright_info span:first a p{
 	display: inline-block;
 	text-align: center;
+	float: left;
 }
 .copyright_info span:last-child{
 text-align: center;
@@ -199,10 +292,10 @@ text-align: center;
 .copyright_info div{
 	text-align: center;
 }
-#handdu_footer div:last-child{
+#handdu_footer .friends{
 	width: 1200px;
 	height: 30px;
-	margin: 0 auto;
+	margin: 0px auto;
 	line-height: 30px;
 }
 #handdu_footer div:last-child span{
@@ -217,11 +310,13 @@ text-align: center;
 }
 /*浮悬模块*/
 .float_box{
-	width: 72px;
+	display: none;
+	width: 0px;
 	height: 320px;
 	position: fixed;
 	right: 100px;
 	bottom: 200px;
+	z-index: 99;
 }
 .float_box a{
 	display: block;
@@ -256,4 +351,29 @@ text-align: center;
 .float_box a:nth-of-type(4):hover{
 	background: url(../images/float_box4.png) no-repeat left -78px top -246px;
 }
-
+/*悬浮广告*/
+#ads{
+	width: 100%;
+	height: 193px;
+	background: url(../images/images/DT_bg_01.png) repeat-x;
+	min-width: 1200px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 999999;
+}
+.ads_inner{
+	width: 1200px;
+	height: 193px;
+	background: url(../images/DT.png) center;
+	position: absolute;
+	margin: 0px auto;	
+}
+.ads_btn{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	position: absolute;
+	left: 850px;
+	top: 20px;
+}
