@@ -1,0 +1,239 @@
+@charset "utf-8";
+#wrap_main{
+	width: 100%;
+	height: 100%;
+}
+#inner_main{
+	width:1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+.register_ad{
+	width: 1200px;
+	height: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.register_left{  /* 注册左边*/
+	width: 488px;
+	height: 515px;
+	float: left;
+	border-right: 2px dashed #f0f0f0;
+	
+}
+.register_left ul{
+	width: 408px;
+	height: 495px;
+	margin-left: 80px;
+	padding-top: 20px;
+}
+.register_left_listName{
+	width: 400px;
+	height: 29px;
+	line-height: 29px;
+	font-size: 12px;
+}
+.register_left_listName input{
+	width: 100px;
+	height: 27px;
+	border: 1px solid #b56824;
+	border-radius: 5px;
+	background: #c68546;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+}
+.register_left_sub{
+	width: 400px;
+	height: 27px;
+	line-height: 27px;
+}
+.register_left_sub input:first-child{
+	width: 250px;
+	height: 25px;
+	border: 1px solid #dddddd;
+	float: left;
+}
+.register_left_sub input:last-child{
+	width: 70px;
+	height: 22px;
+	background: url(../images/register/footer00.png) no-repeat;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.register_right{/* 注册右边*/
+	width: 610px;
+	height: 515px;
+	padding:0px 50px;
+	float: left;
+	position: relative;
+}
+.register_right_type{   /*选择注册方式*/
+	width: 610px;
+	height: 120px;
+	border-bottom: 1px dashed #eaeaea;
+}
+.register_right_type ul{
+	width: 610px;
+	height: 36px;
+}
+.register_right_type ul li{
+	width: 125px;
+	height: 36px;
+	float: left;
+	font-size: 11px;
+	line-height: 36px;
+}
+.register_right_sNo{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 11px;
+	background: #dd2545;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 7px;
+}
+.register_right_type ul li:first-child{
+	font-size:12px ;
+	color: black;
+}
+.register_right_type ul li:nth-of-type(2){
+	width: 135px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 36px;
+	margin-right: 20px;
+	font-size: 12px;
+	background: url(../images/register/NEWS_login.png) no-repeat 0px -102px;
+}
+.register_right_type ul li:nth-of-type(3){
+	width: 135px;
+	cursor: pointer;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 36px;
+	background: url(../images/register/NEWS_login.png) no-repeat 0px -151px;
+}
+.register_right_phone{ /*手机号注册方式*/
+	width: 610px;
+	height: 395px;
+	position: absolute;
+	left: 50px;
+	top: 120px;
+	display: block;
+}
+.register_right_listName{  /*表单名称*/
+	width: 110px;
+	height: 33px;
+	text-align: right;
+	line-height: 33px;
+	font-size: 11px;
+	color: #393939;
+	float: left;
+}
+.register_right_phone ul{
+	width: 610px;
+	height: 365px;
+	padding-top: 30px;
+}
+.register_right_phone ul li{
+	width: 610px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 11px;
+	color: #7b7b7b;
+	margin-bottom: 8px;
+
+}
+.register_right_phone ul li:first-child{
+	font-size: 12px;
+	color: black;
+}
+.register_right_phone input[type="text"]{
+	width: 205px;
+	height: 31px;
+	background:#f6f6f6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	float: left;
+	margin-right: 20px;	
+}
+.register_right_phone ul li:nth-of-type(3),.register_right_phone ul li:nth-of-type(6),.register_right_phone ul li:nth-of-type(8),.register_right_phone ul li:nth-of-type(9){
+	padding-left: 110px;
+}
+.register_right_phone ul li:nth-of-type(3) a,.register_right_phone ul li:nth-of-type(8) a{
+	color: red;
+}
+.register_right_phone ul li:nth-of-type(2) input[type="button"]{
+	width: 114px;
+	height: 24px;
+	border: 1px solid #b4b4b4;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.register_right_phone ul li:last-child input{
+	width: 170px;
+	height: 40px;
+	background: #ac0527;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.register_right_email{ /*邮箱号注册方式*/
+	width: 610px;
+	height: 395px;
+	position: absolute;
+	left: 50px;
+	top: 120px;
+	display: none;
+}
+.register_right_email ul{
+	width: 610px;
+	height: 365px;
+	padding-top: 30px;
+}
+.register_right_email ul li{
+	width: 610px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 11px;
+	color: #7b7b7b;
+	margin-bottom: 8px;
+
+}
+.register_right_email ul li:first-child{
+	font-size: 12px;
+	color: black;
+}
+.register_right_email input[type="text"]{
+	width: 205px;
+	height: 31px;
+	background:#f6f6f6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	float: left;
+	margin-right: 20px;
+}
+.register_right_email ul li:nth-of-type(3),.register_right_email ul li:nth-of-type(5),.register_right_email ul li:nth-of-type(7),.register_right_email ul li:nth-of-type(9),.register_right_email ul li:nth-of-type(10){
+	padding-left: 110px;
+}
+.register_right_email ul li:nth-of-type(9) a{
+	color: red;
+}
+.register_right_email ul li:nth-of-type(8) input[type="button"]{
+	width: 86px;
+	height: 33px;
+}
+.register_right_email ul li:last-child input{
+	width: 170px;
+	height: 40px;
+	background: #ac0527;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+}
