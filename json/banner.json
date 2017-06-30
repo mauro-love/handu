@@ -1,14 +1,14 @@
 [
 	{
 		"id":1 ,
-		"img":["images/423lb_01.jpg","images/423lb_02.jpg","images/423lb_03.jpg","images/423lb_04.jpg","images/423lb_05.jpg"]
+		"img":["../images/423lb_01.jpg","../images/423lb_02.jpg","../images/423lb_03.jpg","../images/423lb_04.jpg","../images/423lb_05.jpg"]
 	},
 	{
 		"id":2,
-		"img":["images/lb_01.jpg","images/lb_02.jpg","images/lb_03.jpg","images/lb_04.jpg","images/lb_05.jpg"]
+		"img":["../images/lb_01.jpg","../images/lb_02.jpg","../images/lb_03.jpg","../images/lb_04.jpg","../images/lb_05.jpg"]
 	},
 	{
 		"id":3,
-		"img":["images/cfx_01.jpg","images/cfx_02.jpg","images/cfx_03.jpg","images/cfx_04.jpg","images/cfx_05.jpg"]
+		"img":["../images/cfx_01.png","../images/cfx_02.png","../images/cfx_03.png","../images/cfx_04.png","../images/cfx_05.png"]
 	}
 ]

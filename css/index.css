@@ -773,7 +773,7 @@
 	display: block;
 	width: 220px;
 	height: 220px;
-	background: url(../images/shaonv001.jpg) no-repeat;
+/*	background: url(../images/shaonv001.jpg) no-repeat;*/
 	margin-bottom:10px ;
 }
 .list li span:nth-of-type(1){
