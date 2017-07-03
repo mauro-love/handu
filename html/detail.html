@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="../css/commer.css" />
 		<link rel="stylesheet" type="text/css" href="../css/detail.css" />
-		
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/detail.js"></script>
+
 	</head>
 	<body>
 		<!--头部导航开始-->
@@ -370,12 +372,12 @@
 							<div class="itemtc_h">
 								<div class="itemtc_h_left">
 									<a href="#">
-										<img src="images/icon/nana.png"/>
+										<img src="../images/icon/nana.png"/>
 									</a>
 								</div>
 								<div class="itemtc_h_right">
 									<a href="#">
-										<img src="images/icon/anma.png"/>
+										<img src="../images/icon/anma.png"/>
 									</a>
 									
 								</div>
@@ -606,21 +608,21 @@
 						<!--商品详情左侧-->
 						<div class="goodsDetail_top_left">
 							<div class="glass">
-								<div class="smallImg">
-									<img src="../images/detail/goods/101.jpg"/>
-									<div class="smallScale">
-									</div>	
-								</div>
-								<div class="bigScale">
-									<img src="../images/detail/goods/b101.jpg" class="bigImg"/>
-								</div>
-								<ul>
-									<li><img src="../images/detail/goods/101.jpg"/></li>
-									<li><img src="../images/detail/goods/102.jpg"/></li>
-									<li><img src="../images/detail/goods/103.jpg"/></li>
-									<li><img src="../images/detail/goods/104.jpg"/></li>
-									<li><img src="../images/detail/goods/105.jpg"/></li>
-								</ul>
+								<!--<div class="smallImg">-->
+									<!--<img src="../images/detail/goods/101.jpg"/>-->
+									<!--<div class="smallScale">-->
+									<!--</div>-->
+								<!--</div>-->
+								<!--<div class="bigScale">-->
+									<!--<img src="../images/detail/goods/b101.jpg" class="bigImg"/>-->
+								<!--</div>-->
+								<!--<ul>-->
+									<!--<li><img src="../images/detail/goods/101.jpg"/></li>-->
+									<!--<li><img src="../images/detail/goods/102.jpg"/></li>-->
+									<!--<li><img src="../images/detail/goods/103.jpg"/></li>-->
+									<!--<li><img src="../images/detail/goods/104.jpg"/></li>-->
+									<!--<li><img src="../images/detail/goods/105.jpg"/></li>-->
+								<!--</ul>-->
 							</div>
 							<div class="like_share">
 								<div class="like">
@@ -640,47 +642,53 @@
 						<div class="goodsDetail_top_right">
 							<!--商品标题-->
 							<div class="gdtr_title">
-								<h4>
-									韩都衣舍2017韩版女装夏装新款印花网纱显瘦短袖T恤EQ9675婋0613
-								</h4>
-								<ul>
-									<li>商品货号：<span>EQ9675</span></li>
-									<li>售价：￥<span>138.00</span></li>
-									<li>促销价：<span>￥62.00</span></li>
-									<li>销量：<span>6</span>件</li>
-									<li>用户评分：
-										<span></span>(共有0条评论)</li>
-								</ul>
+								<!--<h4>-->
+									<!--韩都衣舍2017韩版女装夏装新款印花网纱显瘦短袖T恤EQ9675婋0613-->
+								<!--</h4>-->
+								<!--<ul>-->
+									<!--<li>商品货号：<span>EQ9675</span></li>-->
+									<!--<li>售价：￥<span>138.00</span></li>-->
+									<!--<li>促销价：<span>￥62.00</span></li>-->
+									<!--<li>销量：<span>6</span>件</li>-->
+									<!--<li>用户评分：-->
+										<!--<span></span>(共有0条评论)</li>-->
+								<!--</ul>-->
 							</div>
 							<!--商品规格-->
 							<div class="gdtr_scale">
 								<div class="gdtr_scale_size">
 									<span class="sizeColorNo">尺码：</span>
 									<ul class="sizeColorValue">
-										<li>110</li>
-										<li>120</li>
-										<li>130</li>
-										<li>140</li>
+										<!--<li>110</li>-->
+										<!--<li>120</li>-->
+										<!--<li>130</li>-->
+										<!--<li>140</li>-->
 									</ul>
 								</div>
 								<div class="gdtr_scale_color">
 									<span class="sizeColorNo">颜色：</span>
 									<ul class="sizeColorValue">
-										<li>白色</li>
-										<li>黑色</li>
+										<!--<li>白色</li>-->
+										<!--<li>黑色</li>-->
 									</ul>									
 								</div>
 								<div class="gdtr_scale_num">
 									<span class="sizeColorNo">数量：</span>		
 									<div>
-										<span>-</span>
+										<span class="changeNumber">-</span>
 										<input type="text" name="" id="" value="1" />
-										<span>+</span>
+										<span class="changeNumber">+</span>
 										库存<span>20</span>件
 									</div>
 								</div>
 								<div class="gdtr_scale_choice">
-									<p>您未选择</p>
+									您选择了：
+									<span>
+
+									</span>
+									<span>
+
+									</span>
 								</div>
 								<div class="gdtr_scale_buyOrAddCar">
 									<button></button>
@@ -733,7 +741,7 @@
 						</div>
 						<ul class="goodsDetail_tabList">
 							<li class="goodsDetail_tabList_img">
-								
+								<!--<img src="../images/girl001.jpg" alt="">-->
 							</li>
 							<li class="goodsDetail_tabList_comment">
 								暂无评论

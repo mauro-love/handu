@@ -74,16 +74,19 @@
 	height: 120px;
 	border-bottom: 1px dashed #eaeaea;
 }
-.register_right_type ul{
+.register_right_type>ul{
 	width: 610px;
 	height: 36px;
 }
-.register_right_type ul li{
+.register_right_type>ul>li{
 	width: 125px;
 	height: 36px;
 	float: left;
 	font-size: 11px;
 	line-height: 36px;
+}
+.register_right_type>ul>li:nth-of-type(2){
+	width: 485px;
 }
 .register_right_sNo{
 	display: inline-block;
@@ -101,23 +104,28 @@
 	font-size:12px ;
 	color: black;
 }
-.register_right_type ul li:nth-of-type(2){
-	width: 135px;
-	cursor: pointer;
-	text-align: center;
-	line-height: 36px;
-	margin-right: 20px;
-	font-size: 12px;
-	background: url(../images/register/NEWS_login.png) no-repeat 0px -102px;
+.type{
+	width: 485px;
+	height: 36px;
 }
-.register_right_type ul li:nth-of-type(3){
+.type li{
+	float: left;
 	width: 135px;
+	height:36px;
 	cursor: pointer;
 	font-size: 12px;
-	color: white;
+	color: black;
 	text-align: center;
 	line-height: 36px;
 	background: url(../images/register/NEWS_login.png) no-repeat 0px -151px;
+
+}
+.type li:nth-of-type(1){
+	margin-right: 20px;
+}
+#inner_main  .type_on{
+	color: #FFFFFF;
+	background: url(../images/register/NEWS_login.png) no-repeat 0px -102px;
 }
 .register_right_phone{ /*手机号注册方式*/
 	width: 610px;
@@ -161,7 +169,16 @@
 	border: 1px solid #CCCCCC;
 	border-radius: 5px;
 	float: left;
-	margin-right: 20px;	
+	margin-right: 20px;
+}
+.register_right_phone input[type="password"]{
+	width: 205px;
+	height: 31px;
+	background:#f6f6f6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	float: left;
+	margin-right: 20px;
 }
 .register_right_phone ul li:nth-of-type(3),.register_right_phone ul li:nth-of-type(6),.register_right_phone ul li:nth-of-type(8),.register_right_phone ul li:nth-of-type(9){
 	padding-left: 110px;
@@ -176,7 +193,7 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
-.register_right_phone ul li:last-child input{
+.register_right_phone ul li:nth-of-type(9) input{
 	width: 170px;
 	height: 40px;
 	background: #ac0527;
@@ -210,7 +227,7 @@
 	font-size: 12px;
 	color: black;
 }
-.register_right_email input[type="text"]{
+.register_right_email input[type="text"],.register_right_email input[type="password"]{
 	width: 205px;
 	height: 31px;
 	background:#f6f6f6;

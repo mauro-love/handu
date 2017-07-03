@@ -137,8 +137,6 @@
 }
 .smallScale{
 	display: none;
-	width: 50px;
-	height: 50px;
 	background: #fff;
 	position: absolute;
 	left: 0px;
@@ -155,12 +153,14 @@
 	overflow: hidden;
 }
 .bigImg{
+	width: 800px;
+	height: 800px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
 }
 .glass>ul{
-	width: 400px;
+	width: 410px;
 	height: 70px;
 	border-bottom: 1px solid #EDEDED;
 	padding: 12px;
@@ -168,10 +168,15 @@
 .glass>ul li{
 	width: 70px;
 	height: 70px;
-	background: url(../images/detail/goods/101.jpg) no-repeat;
+	/*background: url(../images/detail/goods/101.jpg) no-repeat;*/
+	border:1px solid white;
 	background-size: 100%;
 	float: left;
 	margin-right: 10px;
+	cursor: pointer;
+}
+#inner_main .clickOn{
+	border:1px solid red;
 }
 .glass>ul li img{
 	width: 70px;
@@ -228,6 +233,7 @@
 }
 .gdtr_title>ul li:nth-of-type(3) span{
 	color: red;
+	font-size: 16px;
 }
 .gdtr_title>ul li:last-child span{
 	display: inline-block;
@@ -314,6 +320,10 @@
 	height: 20px;
 	padding-left: 70px;
 	float: left;
+	color: red;
+}
+.changeNumber{
+	cursor: pointer;
 }
 .gdtr_scale_buyOrAddCar{
 	width: 360px;
@@ -395,10 +405,12 @@
 	float: left;
 	line-height: 35px;
 	text-align: center;
+	cursor: pointer;
 }
 .goodsDetail_tabList_img{
 	width: 1010px;
 	height: auto;
+	text-align: center;
 }
 .goodsDetail_tabList_comment{
 	width: 1010px;
@@ -411,4 +423,8 @@
 	height: auto;
 	text-align: center;
 	display: none;
+}
+#inner_main .gd_tabList_on{
+	border-color: #c80a28;
+	background:  #f5f3f0;
 }

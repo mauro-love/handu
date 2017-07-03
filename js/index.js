@@ -131,6 +131,20 @@ $(function(){
 			
 			
 		})
+
+
+	//上新栏目添加图片
+	$.get("../json/goods.json",function(d){
+		let arr = d;
+		let obj1 = arr[4];
+		let str = "<ul class='list'>";
+		for(let i = 0; i < obj1.img280.length ; i ++){
+			str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+		}
+		str+="</ul>";
+		$(str).appendTo($(".main_new_bottom"));
+	})
+
 //韩风时尚女装添加图片
 		
 		$.get("../json/goods.json",function(d){
@@ -139,11 +153,11 @@ $(function(){
 			let obj2 = arr[1];
 			let str = "<ul class='list'>";
 			for(let i = 0; i < obj1.img280.length ; i ++){
-				str += `<li><a href="#" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul><ul class='list'>";
 			for(let j = 0; j < obj2.img280.length ; j ++){
-				str += `<li><a href="#" style="background:url(${obj2.img280[j]}) no-repeat"></a><span>￥</span><span>${obj2.promotionalPrice}</span><span>￥${obj2.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj2.id}" style="background:url(${obj2.img280[j]}) no-repeat"></a><span>￥</span><span>${obj2.promotionalPrice}</span><span>￥${obj2.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul>";
 			$(str).appendTo($(".main_hStyle"));
@@ -154,7 +168,7 @@ $(function(){
 			let obj1 = arr[2];
 			let str = "<ul class='list'>";
 			for(let i = 0; i < obj1.img280.length ; i ++){
-				str += `<li><a href="#" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul>";
 			$(str).appendTo($(".main_hStyleMother"));
@@ -165,7 +179,7 @@ $(function(){
 			let obj1 = arr[3];
 			let str = "<ul class='list'>";
 			for(let i = 0; i < obj1.img280.length ; i ++){
-				str += `<li><a href="#" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul>";
 			$(str).appendTo($(".main_hStyleGirl"));
@@ -176,7 +190,7 @@ $(function(){
 			let obj1 = arr[4];
 			let str = "<ul class='list'>";
 			for(let i = 0; i < obj1.img280.length ; i ++){
-				str += `<li><a href="#" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul>";
 			$(str).appendTo($(".main_hStyleBoy"));
@@ -187,7 +201,7 @@ $(function(){
 			let obj1 = arr[0];
 			let str = "<ul class='list'>";
 			for(let i = 0; i < obj1.img280.length ; i ++){
-				str += `<li><a href="#" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
+				str += `<li><a href="detail.html?id=${obj1.id}" style="background:url(${obj1.img280[i]}) no-repeat"></a><span>￥</span><span>${obj1.promotionalPrice}</span><span>￥${obj1.price}</span><div>立即购买</div></li>`
 			}
 			str+="</ul>";
 			$(str).appendTo($(".main_eStyle"));
