@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="../css/commer.css" />
 		<link rel="stylesheet" type="text/css" href="../css/car.css" />
-		
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/car.js"></script>
 	</head>
 	<body>
 		<!--头部导航开始-->
@@ -15,7 +17,7 @@
 				<div class="global_info fl">
 					<ul id="header_left">
 						<li class="on">
-							<a href="http://www.handu.com">
+							<a href="index.html">
 								<em>返回首页</em>
 							</a>
 						</li>
@@ -32,17 +34,17 @@
 							你好，欢迎光临韩都衣舍！
 						</li>
 						<li>
-							<a href="#">
+							<a href="logoin.html">
 								登入
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="register.html">
 								注册
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="car.html">
 								购物车
 							</a>
 						</li>
@@ -219,49 +221,57 @@
 					</ul>
 				</div>
 				<div class="main_goodslist">
-					<h2 class="brand">
-						品牌：HSTYLE女装
-					</h2>
-					<ul class="goods_list">
-						<li>
-							<ul class="goods_inventory">
-								<li class="gi_title"> <!--商品图片-->
-									<a href="#">
-										
-									</a>
-									<a href="#">
-										韩都衣舍2017韩版女装夏季新款贴布拼接A字牛仔半身裙DU7348莯
-									</a><br />
-									<span>颜色：<span>蓝色</span></span>
-									<span>尺码：<span>S</span></span>
-								</li>
-								<li class="gi_price">  <!--参考价格-->
-									<span>￥643.00</span><br />
-									<span>￥90</span>
-								</li>
-								<li class="gi_number"> <!--数量-->
-									<span>-</span>
-									<input type="text" name="" id="" value="1" />
-									<span>+</span>
-								</li>
-								<li class="gi_subTotal">  <!--实际价格-->
-									<span>￥98.00</span>
-								</li>
-								<li class="gi_dele">  <!-- 移入收藏或者删除-->
-									<a href="#">移入收藏夹</a><br />
-									<a href="#">删除</a>
-								</li>
-								<li class="gi_remarks">  <!--活动信息-->
-									<a href="#">
-										【夏装尚新周】全场满199包邮.领券满199减20/满299减50/满399减100！
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
+					<!--<h2 class="brand">-->
+						<!--品牌：HSTYLE女装-->
+					<!--</h2>-->
+					<!--<ul class="goods_list">-->
+						<!--<li>-->
+							<!--<ul class="goods_inventory">-->
+								<!--<li class="gi_title"> &lt;!&ndash;商品图片&ndash;&gt;-->
+									<!--<a href="#">-->
+										<!--<img src="../images/girl001.jpg" alt="主图">-->
+									<!--</a>-->
+									<!--<a href="#">-->
+										<!--韩都衣舍2017韩版女装夏季新款贴布拼接A字牛仔半身裙DU7348莯-->
+									<!--</a><br />-->
+									<!--<span>颜色：<span>蓝色</span></span>-->
+									<!--<span>尺码：<span>S</span></span>-->
+								<!--</li>-->
+								<!--<li class="gi_price">  &lt;!&ndash;参考价格&ndash;&gt;-->
+									<!--<span>￥643.00</span><br />-->
+									<!--<span>￥90</span>-->
+								<!--</li>-->
+								<!--<li class="gi_number"> &lt;!&ndash;数量&ndash;&gt;-->
+									<!--<span>-</span>-->
+									<!--<input type="text" name="" id="" value="1" />-->
+									<!--<span>+</span>-->
+								<!--</li>-->
+								<!--<li class="gi_subTotal">  &lt;!&ndash;实际价格&ndash;&gt;-->
+									<!--<span>￥98.00</span>-->
+								<!--</li>-->
+								<!--<li class="gi_dele">  &lt;!&ndash; 移入收藏或者删除&ndash;&gt;-->
+									<!--<input type="checkbox">-->
+									<!--<a href="#">删除</a>-->
+								<!--</li>-->
+								<!--<li class="gi_remarks">  &lt;!&ndash;活动信息&ndash;&gt;-->
+									<!--<a href="#">-->
+										<!--【夏装尚新周】全场满199包邮.领券满199减20/满299减50/满399减100！-->
+									<!--</a>-->
+								<!--</li>-->
+							<!--</ul>-->
+						<!--</li>-->
+					<!--</ul>-->
 				</div>
 				<div class="shopping_bottom">
-					<ul>
+					<ul class="all">
+						<li >
+							全选：<input type="checkbox" class="allCheck">
+						</li>
+						<li class="delSelect">
+							<a href="#">删除全部</a>
+						</li>
+					</ul>
+					<ul class="goods_total">
 						<li>
 							<span>
 								15
@@ -269,8 +279,8 @@
 							<span>
 								总计：
 							</span>
-							<span>
-								￥3432.00
+							￥<span>
+								3432.00
 							</span>
 						</li>
 						<li>

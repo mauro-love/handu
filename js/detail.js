@@ -2,7 +2,7 @@
  * Created by 赖孟良 on 2017/7/2.
  */
 $(function(){
-
+        var obj1 = {};  //当前商品对象；
     $.get("../json/goods.json",function(d){     //获取图片
         var arr = d;
         var str = "";   //存放添加放大镜节点
@@ -166,7 +166,6 @@ $(function(){
     //点击小图片切换大图片
     function tabImg(id,arr){
         //获取当前商品对象
-        var obj1 = {};
         for(var i = 0 ;i < arr.length;i ++ ){
             var obj = arr[i];
             if(id == obj.id){
@@ -194,6 +193,44 @@ $(function(){
         $(".goodsDetail_tabList>li").eq(index).show().siblings().hide();
 
     })
+
+    //给加入购物车添加一个点击事件
+    $(".gdtr_scale_buyOrAddCar>button").eq(1).on("click", function(e){
+        e.stopPropagation(); //阻止冒泡
+
+        var arr = $.cookie("cart") ? JSON.parse($.cookie("cart")) : [];
+        var isExist = false; //表示是否存在相同商品
+        for (var i=0; i<arr.length; i++) {
+            if (arr[i].id == obj1.id) {
+                arr[i].num += parseInt($(".gdtr_scale_num input").val());
+                arr[i].size = [$(".gdtr_scale_choice span").eq(0).html()];
+                arr[i].color = [$(".gdtr_scale_choice span").eq(1).html()]
+                isExist = true; //表示存在相同商品
+            }
+        }
+        //如果不存在相同商品， 则添加该商品
+        if (isExist == false) {
+            obj1.num = parseInt($(".gdtr_scale_num input").val());
+            obj1.checked = true; //默认是选中的
+            obj1.size = [$(".gdtr_scale_choice span").eq(0).html()];
+            obj1.color = [$(".gdtr_scale_choice span").eq(1).html()]
+            arr.push(obj1);
+        }
+
+
+        //使用$.cookie保存数据
+        $.cookie("cart", JSON.stringify(arr), {expires:30, path:"/"});
+        console.log( $.cookie("cart") );
+    })
+
+    //进入“我的购物车”页面
+    $(".gdtr_scale_buyOrAddCar>button").eq(0).click(function(){
+        location.href = "car.html";
+    })
+
+
+
+
 
     //关闭广告
     $(".ads_btn").on("click",function(){

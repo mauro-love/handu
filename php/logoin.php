@@ -29,13 +29,13 @@ class Res {
 $conn = new mysqli("127.0.0.1", "root", "", "handu") or die("连接失败");
 $sql = "select * from usertable where phoneNumber='$phoneNumber'";
 $result = $conn->query($sql);
-
+$row = $result->fetch_assoc();
 if($phoneNumber == "")
 {
 
     $res = new Res();
     $res->status = 0;
-    $res->msg = "请填写用户名";
+    $res->msg = "请填写手机号";
     echo  json_encode($res);
 }
 elseif($pwd == "")
@@ -50,7 +50,7 @@ elseif($pwd == "")
 }
 else
 {
-    if(($result['phonenumber'] == $phoneNumber) && ($result['upsd'] == $pwd))
+    if($result && ($row["phonenumber"] == $phoneNumber) && ($row["upsd"] == $pwd))
 
     {
         //echo "验证成功！<br>";
@@ -66,10 +66,10 @@ else
         //echo "密码错误<br>";
         $res = new Res();
         $res->status = 3;
-        $res->msg = "密码错误";
+        $res->msg = "用户名或密码错误";
         echo  json_encode($res);
 
-        //echo "<a href='login.php'>返回</a>";
+
     }
 
 

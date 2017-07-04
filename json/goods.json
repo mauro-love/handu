@@ -5,14 +5,17 @@
 		"img280": ["../images/detail/goods/101.jpg","../images/detail/goods/102.jpg","../images/detail/goods/103.jpg","../images/detail/goods/104.jpg","../images/detail/goods/105.jpg"],
 		"img800": ["../images/detail/goods/b101.jpg","../images/detail/goods/b102.jpg","../images/detail/goods/b103.jpg","../images/detail/goods/b104.jpg","../images/detail/goods/b105.jpg"],
 		"number" :"EQ9675",
-		"price" : "￥100.00",
-		"promotionalPrice": "￥62.00",
+		"price" : "100.00",
+		"promotionalPrice": "62.00",
 		"salesCount":6,
 		"size":[110,120,130,140,150],
 		"color":["白色","黑色","卡其色"],
 		"finishDate": "2017-6-25 17:28:10" ,
 		"stock":20,
-		"comment":50
+		"comment":50,
+		"brand":"HSTYLE女装",
+		"remarks":"夏装尚新装-全场满199包邮【提交订单系统自动满减】199减20/满359减50/满599减100/满899减200！~"
+
 	},
 	{
 		"id": 102,
@@ -20,14 +23,16 @@
 		"img280": ["../images/detail/goods/201.jpg","../images/detail/goods/202.jpg","../images/detail/goods/203.jpg","../images/detail/goods/204.jpg","../images/detail/goods/205.jpg"],
 		"img800": ["../images/detail/goods/b201.jpg","../images/detail/goods/b202.jpg","../images/detail/goods/b203.jpg","../images/detail/goods/b204.jpg","../images/detail/goods/b205.jpg"],
 		"number" :"YQ7788",
-		"price" : "￥248.00",
-		"promotionalPrice": "￥118.00",
+		"price" : "248.00",
+		"promotionalPrice": "118.00",
 		"salesCount":6,
 		"size":["S","M","L"],
 		"color":["白色","黑色","卡其色"],
 		"finishDate": "2017-6-25 17:28:10" ,
 		"stock":66,
-		"comment":34
+		"comment":34,
+		"brand":"Minizaru童装",
+		"remarks":"夏装尚新装-全场满199包邮【提交订单系统自动满减】199减20/满359减50/满599减100/满899减200！~"
 	},
 	{
 		"id": 103,
@@ -35,14 +40,16 @@
 		"img280": ["../images/detail/goods/301.jpg","../images/detail/goods/302.jpg","../images/detail/goods/303.jpg","../images/detail/goods/304.jpg","../images/detail/goods/305.jpg"],
 		"img800": ["../images/detail/goods/b301.jpg","../images/detail/goods/b302.jpg","../images/detail/goods/b303.jpg","../images/detail/goods/b304.jpg","../images/detail/goods/b305.jpg"],
 		"number" :"GY9162",
-		"price" : "￥138.00",
-		"promotionalPrice": "￥60.00",
+		"price" : "138.00",
+		"promotionalPrice": "60.00",
 		"salesCount":13,
 		"size":["S","M","L","XS"],
 		"color":["白色","黑色","卡其色"],
 		"finishDate": "2017-6-25 17:28:10" ,
 		"stock":49,
-		"comment":23
+		"comment":23,
+		"brand":"迪葵纳",
+		"remarks":"夏装尚新装-全场满199包邮【提交订单系统自动满减】199减20/满359减50/满599减100/满899减200！~"
 	},
 	{
 		"id": 104,
@@ -50,14 +57,16 @@
 		"img280": ["../images/detail/goods/401.jpg","../images/detail/goods/402.jpg","../images/detail/goods/403.jpg","../images/detail/goods/404.jpg","../images/detail/goods/405.jpg"],
 		"img800": ["../images/detail/goods/b401.jpg","../images/detail/goods/b402.jpg","../images/detail/goods/b403.jpg","../images/detail/goods/b404.jpg","../images/detail/goods/b405.jpg"],
 		"number" :"YQ7631",
-		"price" : "￥278.00",
-		"promotionalPrice": "￥148.00",
+		"price" : "278.00",
+		"promotionalPrice": "148.00",
 		"salesCount":12,
 		"size":["S","M","L","XS"],
 		"color":["白色","黑色","卡其色"],
 		"finishDate": "2017-6-25 17:28:10" ,
 		"stock":20,
-		"comment":443
+		"comment":443,
+		"brand":"NanaDay娜娜日记",
+		"remarks":"夏装尚新装-全场满199包邮【提交订单系统自动满减】199减20/满359减50/满599减100/满899减200！~"
 	},
 	{
 		"id": 105,
@@ -65,13 +74,15 @@
 		"img280": ["../images/detail/goods/501.jpg","../images/detail/goods/502.jpg","../images/detail/goods/503.jpg","../images/detail/goods/504.jpg","../images/detail/goods/505.jpg"],
 		"img800": ["../images/detail/goods/b501.jpg","../images/detail/goods/b502.jpg","../images/detail/goods/b503.jpg","../images/detail/goods/b504.jpg","../images/detail/goods/b505.jpg"],
 		"number" :"EQ9675",
-		"price" : "￥100.00",
-		"promotionalPrice": "￥62.00",
+		"price" : "100.00",
+		"promotionalPrice": "62.00",
 		"salesCount":6,
 		"size":["S","M","L","XS"],
 		"color":["白色","黑色","卡其色"],
 		"finishDate": "2017-6-25 17:28:10" ,
 		"stock":232,
-		"comment":23
+		"comment":23,
+		"brand":"R•Maker暗码",
+		"remarks":"夏装尚新装-全场满199包邮【提交订单系统自动满减】199减20/满359减50/满599减100/满899减200！~"
 	}
 ]
